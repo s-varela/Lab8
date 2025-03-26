@@ -1,9 +1,7 @@
 
 #main-navbar {
   background-color:blue;
-  overflow: hidden;
-  float: left;
-	
+  overflow: hidden;	
 }
 
 #main-navbar ul{
@@ -11,6 +9,7 @@
   margin: 0;
   padding: 0;
   position: relative;
+  left: 50;
   float: left;  
 	
 }
@@ -31,6 +30,7 @@
 }
 
 #navbar-container {
+  float: left;
   width: 100;
   position: relative;
 }
