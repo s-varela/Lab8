@@ -31,10 +31,34 @@
 
 #main-navbar ul li a:hover {
    background-color: #000;
+   text-decoration: underline overline;
 }
 
 #navbar-container {
   float: left;
   width: 100;
   position: relative;
+}
+
+#sidebar {
+  position: fixed;
+  right:0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  padding; 0;
+}
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+	
+}
+#sidebar ul li a{
+  text-decoration: none;
+  background-color: #000;	
 }
